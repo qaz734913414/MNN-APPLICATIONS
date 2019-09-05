@@ -1,3 +1,8 @@
+*.pyc
+*.swp
+*.swo
+*.swn
+
 applications/quantized/images/*
 applications/quantized/models/*
 
@@ -18,6 +23,14 @@ applications/retinaface/caffe/obj/*
 applications/retinaface/caffe/jni/graphs/mnet.caffemodel
 applications/retinaface/caffe/jni/graphs/mnet.prototxt
 
+applications/mnist/onnx/libs/*
+applications/mnist/onnx/obj/*
+applications/mnist/train/data/*.gz
+applications/mnist/train/*.params
+applications/mnist/train/*.json
+
+applications/pfld-lite/onnx/libs/*
+applications/pfld-lite/onnx/obj/*
 
 libraries/mnn/include/tools/converter/build/*
 
@@ -28,3 +41,4 @@ applications/openpose/
 applications/zhazhafei/
 applications/mobilefacenet/
 libraries/tensorflow/
+.vscode/settings.json
